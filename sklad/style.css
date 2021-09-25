@@ -1,0 +1,13 @@
+.tekst li{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+}
+.nazwa{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

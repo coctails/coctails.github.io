@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #00000;
+    background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
+    background: linear-gradient(to right, #ffffff, #ece9e6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mobile-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px #3333331a;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 500px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+header input{
+    background-color: #eee;
+    font-family: inherit;
+    border:none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+}
+header button{
+    background-color: transparent;
+    color:#aaa;
+    border:none;
+    font-size: 1.5rem;
+    margin-left:10px;
+}
+.fav-container{
+    background-color: rgb(193, 250, 140);
+    padding: 0.25rem 1rem;
+    text-align: center;
+
+}
+.fav-drinks{
+
+    display: flex;
+   flex-wrap:  wrap;
+   justify-content: center;
+    list-style: none;
+    padding:0;
+}
+.fav-drinks li{
+    margin:2px;
+width: 85px;
+}
+
+.fav-drinks li img{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow:  0 0 10px 2px #3333331a;
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fav-drinks li span{
+    font-size: 0.9rem;
+}
+
+
+.drink{
+border-radius: 3px;
+box-shadow: 0 0 10px 2px #3333331a;
+margin: 1.5rem;
+}
+
+.drink-header{
+position: relative;
+}
+.drink-header .random{
+    position: absolute;
+    top: 1rem;
+    background-color: #fff;
+    padding: 0.25rem 1rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+.drink-header img{
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+
+  
+}
+
+.drink-body{
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.drink-body h4{
+    margin:0px;
+}
+
+.drink-body .fav-btn{
+    border: none;
+    background-color: transparent;
+    color: rgb(197, 188 , 188);
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+
+.drink-body .fav-btn.active{
+    color:rgb(216, 58, 58);
+}
+
+#losowy{
+    width: 100px;
+    height: 100px;
+}
